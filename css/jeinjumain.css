@@ -3,6 +3,7 @@
     * {margin:0; padding:0; box-sizing:border-box; font-family:'Dolbomche_R';}
     ul,li,ol {list-style:none; margin:0; padding:0;}
     a {text-decoration:none; color:black;}
+    button {cursor: pointer;}
 
     @font-face {
         font-family: 'Dolbomche_R';
@@ -23,12 +24,17 @@
         font-style: normal;
     }
 
+    @keyframes slider {
+        0% {top:80px; opacity:0.2;}
+        100% {top:0; opacity:1;}
+    }
+
 
 /* ------------ main ------------ */
 
     header {
         width:100%;
-        height:1150px;
+        height:945px;
         background-color:#f2efea;
     }
     .logo {
@@ -145,11 +151,179 @@
 
     
 /* ------------ section ------------ */
+
+/* -----선택메뉴----- */
+
+    #maininput {
+        width:1150px;
+        height:400px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        position: relative;
+        animation: slider 3s linear 0.3s;
+        animation-fill-mode: forwards;
+    }
+    #maininput p {
+        text-align:center;
+        font-size:30px;
+    }
+    #menu {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    #menu img {
+        width:80px;
+        background-color:#EBE0D6;
+        padding:10px;
+        border-radius:10%;
+    }
+    #menu span {
+        display:block;
+        text-align:center;
+        font-family:'Pretendard-Regular';
+    }
+    #menu img:hover {
+        background-color:white;
+        border:1px solid #EBE0D6;
+        box-shadow:2px 2px 2px 1px #f2efea ;
+        transition:all 1s;
+    }
+
+/* --------------------- */
+
     #top {
         width:100%;
-        height:945px;
+        height:2050px;
         background-color:#f2efea;
+
     }
+
+/* -----문화시설----- */
+
+    #top1, #top2 {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        width:1150px;
+        height:1050px;
+        margin:30px auto 0;
+        padding:10px 0;
+    }
+
+    #top1 h2, #top2 h2 {
+        width:200px;
+        margin:0 auto;
+        text-align:center;
+        letter-spacing:10px;
+        padding-left:10px;
+        background-color: #EBE0D6;
+    }
+    .top_big{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        width:1150px;
+    }
+
+    .top_bigimgbox, .top_bigimg {
+        width:550px;
+        height:365px;
+        overflow: hidden;
+        transition:all 1.5s;
+    }
+    .top_bigimg:hover {
+        transform: scale(1.1);
+    }
+
+
+    .top_bigtext{
+        width:550px;
+        height:250px;
+        text-align:center;
+    }
+    .top_bigtext p:nth-of-type(1){
+        font-family: 'Dolbomche_B';
+        color:#470000;
+        font-size:35px;
+        margin-bottom: 30px;
+    }
+    .top_bigtext p:nth-of-type(2){
+        font-family: 'Pretendard-Regular';
+        margin-bottom: 30px;
+        line-height:35px;
+        font-size:23px;
+    }
+    .top_bigtext button {
+        background-color:#470000;
+        padding:5px 10px;
+        color:white;
+        border:none;
+        border-radius:10px;
+        font-size:18px;
+    }
+    .top_bigtext button:hover {
+        background-color:white;
+        border:1px solid #EBE0D6;
+        color:#470000;
+        transition:all 0.5s;
+    }
+        .top_mini {
+        display:flex;
+        justify-content:space-between;
+        width:1150px;
+        height:370px;
+    }
+    .top_minibox {
+        width:325px;
+        height:380px;
+    }
+    .top_miniimgbox, .top_miniimg {
+        width:325px;
+        height:215px ;
+        overflow:hidden;
+        transition:all 1.5s;
+    }
+    .top_miniimg:hover{
+        transform:scale(1.1);
+    }
+    .top_minitext {
+        text-align:center;
+        margin:10px;
+    }
+    .top_minitext p:nth-of-type(1) {
+        font-family:'Dolbomche_B';
+        font-size:30px;
+        color:#470000;
+        margin-bottom:5px;
+    }
+    .top_minitext p:nth-of-type(2) {
+        font-family: 'Pretendard-Regular';
+        font-size:20px;
+        margin-bottom:10px;
+    }
+    .top_minitext button {
+        background-color:#470000;
+        padding:5px 10px;
+        color:white;
+        border:none;
+        border-radius:10px;
+        font-size:15px;
+    }
+    .top_minitext button:hover {
+        background-color:white;
+        border:1px solid #EBE0D6;
+        color:#470000;
+        transition:all 0.5s;
+    }
+
+
+
+
+
+
     #middle {
         width:100%;
         height:670px;

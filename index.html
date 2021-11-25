@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jeonju.hanok</title>
+
     <link rel="stylesheet" href="css/jeinjumain.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+            $(function () {
+                $("#top1").fadeIn();
+                
+                $('#menu li:nth-of-type(1)').click(function () {
+                    $("#top1").fadeIn();
+                    $("#top2").hide();
+                });
+                $('#menu li:nth-of-type(2)').click(function () {
+                    $("#top1").hide();
+                    $("#top2").fadeIn();
+                });
+            });
+    </script>
 </head>
+
 <body>
     <header>
-        <!-- <img class="logo" src="img/logo.png" alt="logo"> -->
 
         <div class="main">
             <img class="logo" src="img/logo.png" alt="logo">
 
-            <nav class ="nav1">
+            <nav class="nav1">
                 <ul>
                     <li>한국어</li>
                     <li>ENGLISH</li>
@@ -23,7 +40,7 @@
                     <li>中國語</li>
                 </ul>
             </nav>
-            <nav class ="nav2">
+            <nav class="nav2">
                 <ul>
                     <li><a href="#">이용안내</a></li>
                     <li><a href="#">전주한옥마을소개</a></li>
@@ -37,11 +54,153 @@
         <div class="bannner">
             <img class="backimg" src="img/main.png" alt="img">
             <span class="text">아름다운 우리 전통의 美<br>
-            여기는 <img class="logo2 "src="img/logo2.png" alt="logo"> 입니다.</span>
+                여기는 <img class="logo2 " src="img/logo2.png" alt="logo"> 입니다.</span>
         </div>
     </header>
+    <section id="maininput">
+        <p>다시 찾고싶은 대한민국 대표 여행지, 전주한옥마을에 오신걸 환영합니다.</p>
+
+        <ul id="menu">
+            <li>
+                <a href="#">
+                    <img src="img/main_icon1.png" alt="icon">
+                    <span>문화시설</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="img/main_icon2.png" alt="icon">
+                    <span>문화유적지</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="img/main_icon3.png" alt="icon">
+                    <span>이색체험</span>
+                </a>
+
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="img/main_icon4.png" alt="icon">
+                    <span>스템프투어</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="img/main_icon5.png" alt="icon">
+                    <span>한옥마을풍경</span>
+                </a>
+            </li>
+    </section>
 
     <section id="top">
+        <div id="top1">
+            <h2>문화시설</h2>
+            <div class="top_big">
+                <div class="top_bigtext">
+                    <p>전주 전통 문화 연수원</p>
+                    <p>전주시 완산구 향교길 119-6<br>
+                        ☎ 063-281-5271~4<br>
+                        홈페이지 https://www.dongheon.or.kr</p>
+                    <button>전시장체험안내</button>
+                </div>
+                <div class="top_bigimgbox">
+                    <img class="top_bigimg" src="img/top1-1.jpg" alt="img"></img>
+                </div>
+            </div>
+    
+            <div class="top_mini">
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top1-2.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>전주 한옥 마을 역사관</p>
+                        <p>전주시 완산구 최명희길 17-10<br>
+                            ☎ 063-286-5125</p>
+                        <button>전시장체험안내</button>
+                    </div>
+                </div>
+
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top1-3.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>강암 서예관</p>
+                        <p>전주시 완산구 전주천동로 74<br>
+                            ☎ 063-285-7442</p>
+                        <button>전시장체험안내</button>
+                    </div>
+                </div>
+    
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top1-4.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>한옥 마을 선비문화관</p>
+                        <p>전주시 완산구 한지길 102<br>
+                            ☎ 063-288-5124</p>
+                        <button>전시장체험안내</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="top2">
+            <h2>문화유적지</h2>
+            <div class="top_big">
+                <div class="top_bigtext">
+                    <p>전주 경기전 정전</p>
+                    <p>[보물 제 1578호-2008.12.01.]</p>
+                    <button>자세히보기</button>
+                </div>
+                <div class="top_bigimgbox">
+                    <img class="top_bigimg" src="img/top2-1.jpg" alt="img"></img>
+                </div>
+            </div>
+    
+            <div class="top_mini">
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top2-2.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>조선 태조어진</p>
+                        <p>[국보 제 317호-2012.06.29.]</p>
+                        <button>자세히보기</button>
+                    </div>
+                </div>
+
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top2-3.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>하마비</p>
+                        <p style="font-size:17px">[전라북도 유형문화재 제 222호-2013.11.15.]</p>
+                        <button>자세히보기</button>
+                    </div>
+                </div>
+    
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top2-4.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>전주 전동성당</p>
+                        <p>[사적 제288호-1981.09.25.]</p>
+                        <button>자세히보기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -57,4 +216,5 @@
 
     </footer>
 </body>
+
 </html>
