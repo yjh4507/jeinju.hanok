@@ -34,7 +34,6 @@
 
     header {
         width:100%;
-        height:945px;
         background-color:#f2efea;
     }
     .logo {
@@ -104,6 +103,7 @@
         max-width:100%;
         height: 100%;
         transition:all 5s;
+        display:block;
 
     }
     .bannner span.text {
@@ -201,7 +201,7 @@
 
     }
 
-/* -----문화시설----- */
+/* -----문화시설 문화유적지----- */
 
     #top1, #top2 {
         display:flex;
@@ -319,16 +319,14 @@
         transition:all 0.5s;
     }
 
-
-
-
-
+/* --------------------- */
 
     #middle {
         width:100%;
         height:670px;
         background-color: #310000;
     }
+    
     #bottom {
         width:100%;
         height:1770px;
