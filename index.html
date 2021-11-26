@@ -23,6 +23,19 @@
                     $("#top2").fadeIn();
                 });
             });
+            $(function () {
+                $("#middle_section1").fadeIn();
+                $("#middle_section2").hide();
+                $('#menu li:nth-of-type(3)').click(function () {
+                    $("#middle_section1").fadeIn();
+                    $("#middle_section2").hide();
+                });
+                $('#menu li:nth-of-type(4)').click(function () {
+                    $("#middle_section1").hide();
+                    $("#middle_section2").fadeIn();
+                });
+            });
+
     </script>
 </head>
 
@@ -69,14 +82,14 @@
             </li>
 
             <li>
-                <a href="#">
+                <a href="#top2">
                     <img src="img/main_icon2.png" alt="icon">
                     <span>문화유적지</span>
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a href="#middle_section1">
                     <img src="img/main_icon3.png" alt="icon">
                     <span>이색체험</span>
                 </a>
@@ -84,14 +97,14 @@
             </li>
 
             <li>
-                <a href="#">
+                <a href="#middle_section2">
                     <img src="img/main_icon4.png" alt="icon">
                     <span>스템프투어</span>
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a href="#bottom">
                     <img src="img/main_icon5.png" alt="icon">
                     <span>한옥마을풍경</span>
                 </a>
@@ -201,15 +214,92 @@
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section id="middle">
+    <section id="middle_section1">
+        <h2>이색체험</h2>
+        <div id="middle1">
+            <div class="mdl1_big">
+                <div class="mdl1_text">
+                    <p>전주난장</p>
+                    <p>3년 6개월의 공사기간을 거쳐<br>
+                    만들어진 곳! 한옥마을 여행객이라면 꼭 한번 가봐야 한다는 그곳!<br>
+                    [운영시간 10시반~20시/입장료 5천~8천원]</p>
+                </div>
+                <div class="mdl1_videobox">
+                    <iframe src='https://tv.naver.com/embed/9158561?autoPlay=false' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='610' HEIGHT='330' allow='autoplay' allowfullscreen></iframe>
+                </div>
+            </div>
 
+            <div class="mdl1_mini">
+                <div class="mdl1_minitext">
+                    <p>자만벽화마을</p>
+                    <p>6.25 한국전쟁때 피난민이 모여살면서 만들어진 달동네에<br>
+                    예쁜벽화들이 그려지면서 핫 플레이스가 되다!<br>
+                    전주한옥마을 여행객들이라면 누구나 가봤을 자만벽화마을!</p>
+                </div>
+                <div class="mdl1_minitext">
+                    <p>남부시장 야시장</p>
+                    <p>여러나라의 가지각색 음식은 물론,<br>
+                    삼겹살 김밥, 막창, 육전, 소고기 스시, 꼬치, 아이술크림, 탕후루 등<br>
+                    금요일과 토요일밤에 펼쳐지는 맛의 향연!!</p>
+                </div>
+                <div class="mdl1_minitext">
+                    <p>추억박물관&루이엘모자박물관</p>
+                    <p>추억박물관 1층은 레트로 감성~그때 그 시절 과거로의 여행을 떠나보세요~<br>
+                    학창시절 소품들과 어린시절 장난감들을 보며<br>
+                    절로 미소가 지어지는 곳이랍니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middle_section2">
+        <div id="middle2">
+            <h2>스탬프투어</h2>
+            <iframe width="1150" height="675" src="https://www.youtube.com/embed/ff-rMj10-TQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>전주한옥마을에서 福 받아가기!<br>
+            긍정적인 기운과 복이 가득한 골목길을 함께 걸어 보세요.</p>
+            <div class="mld2imgbox">
+                <img src="img/middle2-1.png" alt="img">
+                <img src="img/middle2-2.jpg" alt="img">
+                <img src="img/middle2-3.jpg" alt="img">
+            </div>
+        </div>
     </section>
 
     <section id="bottom">
+        <div id="bottombox">
 
+            <div class="btmtext">
+                <img class="btmlogo" src="img/logo.png" alt="logo">
+                <p>하나의 예쁜그림같은 이곳, 한옥의 사계절</p>
+            </div>
+
+            <div class="btmimgbox">
+
+                <div class="btmimg1">
+                    <img src="img/bottom1.jpg" alt="img">
+                    <span>한옥의 봄</span>
+                </div>
+            
+                <div class="btmimg2">
+                    <img src="img/bottom2.jpg" alt="img">
+                    <span>한옥의 여름</span>
+                </div>
+            
+                <div class="btmimg3">
+                    <img src="img/bottom3.jpg" alt="img">
+                    <span>한옥의 가을</span>
+                </div>
+            
+                <div class="btmimg4">
+                    <img src="img/bottom4.jpg" alt="img">
+                    <span>한옥의 겨울</span>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
     <footer>
