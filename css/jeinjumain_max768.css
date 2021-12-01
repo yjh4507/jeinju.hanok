@@ -9,7 +9,7 @@
     }
     header .main {
         width:100%;
-        height:100%;
+        height:80px;
     }
     .main .nav1 {
         margin:10px 0 0 20px;
@@ -17,6 +17,7 @@
     .main .nav2 {
         width:100%;
         background-color: #470000;
+        display:none;
     }
     .main .nav2 ul{
         display:flex;
@@ -37,3 +38,189 @@
     .main .nav2 a {
         color:white;
     }
+    .navicon {
+        display:block;
+        position:absolute;
+        font-size:25px;
+        color: #180000;
+        right:18px;
+        top:35px;
+    }
+    .nav2.active{display:block;}
+
+    .navicon:hover {
+        color:rgb(180, 6, 6);
+    }
+    .bannner span .logo2 {
+        width:200px;
+        height:27px;
+    }
+    .bannner span.text {
+        font-size:25px;
+        line-height:80px;
+    }
+
+    /* -----선택메뉴----- */
+
+    #maininput {
+        width:100%;
+    }
+    #maininput p {
+        font-size:25px;
+    }
+
+/* -----문화시설 문화유적지----- */
+    #top {
+        height:800px;
+    }
+    #top1, #top2{
+        width:90%;
+        height:100%;
+    }
+    .top_big{
+        width:100%;
+    }
+    .top_bigimgbox {
+        width:53%;
+        height:270px;
+    }
+    .top_bigimg{
+        width:100%;
+        height:100%;
+    }
+    .top_bigtext{
+        width:40%;
+        margin-left:3%;
+    }
+    .top_bigtext p:nth-of-type(1){
+        font-size:30px;
+        margin-top:20px;
+    }
+    .top_bigtext p:nth-of-type(2){
+        font-size:18px;
+        line-height:25px;
+    }
+    .top_mini {
+        width:100%;
+        height:280px;
+    }
+    .top_minibox {
+        width:32%;
+        height:280px;
+    }
+    .top_miniimgbox, .top_miniimg {
+        width:100%;
+        height:130px;
+    }
+    .top_minitext p:nth-of-type(1) {
+        font-size:23px;
+    }
+    .top_minitext p:nth-of-type(2) {
+        font-size:15px;
+    }
+/* -----이색체험----- */
+
+    #middle_section1 {
+        height:1250px;
+
+    }
+    #middle1 {
+        width:100%;
+        height:1050px;
+        flex-direction:column;
+        align-items:center;
+    }
+    .mdl1_big {
+        width:90%;
+    }
+    .mdl1_mini {
+        width:90%;
+        height:490px;
+    }
+    .mdl1_minitext {
+        width:100%;
+    }
+
+    /* -----스탬프투어----- */
+    #middle_section2 {
+        height:1000px;
+    }
+    #middle2 {
+        width:100%;
+        height:100%;
+        margin:0 auto;
+    }
+    #middle2 iframe {
+        width:90%;
+        height:400px;
+    }
+    .mld2imgbox{
+        width:90%;
+        background: #180000;
+    }
+    .mld2imgbox img {
+        width:30%;
+        cursor: pointer;
+        box-shadow:5px 5px 5px  black;
+    }
+
+    /* -----한옥마을풍경----- */
+    #bottom {
+        height:1500px;
+    }
+    #bottom p {
+        font-size:25px;
+    }
+    #bottombox {
+        width:90%;
+        height:1500px;
+    }
+    .btmtitle {
+        width:100%;
+    }
+    .btm1 {
+        height:490px;
+    }
+    .btm1_left, .btm1_right {
+        width:49.5%;
+        height:490px;
+    }
+    .btm1_box1 {height:242px;}
+    .btm1_box2 {height:242px;}
+    .btm1_box3 {height:190px;}
+    .btm1_box4 {height:294px;}
+
+    .btm2 {
+        height:242px;
+    }
+    .btm2_box1, .btm2_box2 {
+        width:49.5%;
+        height:242px;
+    }
+    .btmtext {
+        font-size:30px;
+    }
+    .btmtext span>span {
+        font-size:14px;
+    }
+    
+    /* ------------ footer ------------ */
+    #footerbox {
+        width:100%;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items:center;
+        text-align:center;
+    }
+    .footer_left p {
+        margin-top:2%;
+    }
+    .footer_right img{
+        margin-top:0;
+    }
+
+
+
+
+
+}

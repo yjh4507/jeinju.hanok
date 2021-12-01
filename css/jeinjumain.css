@@ -78,6 +78,7 @@
         color:#999;
     }
     .navicon {display:none;}
+    
     .main .nav2 li {
         float:left;
         padding:0 10px;
@@ -100,7 +101,6 @@
         height: 100%;
         transition:all 5s;
         display:block;
-
     }
     .bannner span.text {
         position:absolute;
@@ -374,7 +374,6 @@
         display:flex;
         flex-direction:column;
         justify-content:space-between;
-
     }
     .mdl1_minitext {
         width:500px;
@@ -437,7 +436,6 @@
         width:300px;
         cursor: pointer;
         box-shadow:5px 5px 5px  black;
-
     }
     .mld2imgbox img:hover {
         transform:translateX(25px) translateY(-10px);
