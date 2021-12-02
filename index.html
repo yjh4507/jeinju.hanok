@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeonju.hanok</title>
+
+    <link rel="stylesheet" href="css/jeinjumain.css">
+    <link rel="stylesheet" href="css/jeinjumain_max768.css">
+    <link rel="stylesheet" href="css/jeinjumain_max769_min1199.css">
+
+    <script src="js/main_script.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+            $(function () {
+                $("#top1").fadeIn();
+                $("#top2").hide();
+                $('#menu li:nth-of-type(1)').click(function () {
+                    $("#top1").fadeIn();
+                    $("#top2").hide();
+                });
+                $('#menu li:nth-of-type(2)').click(function () {
+                    $("#top1").hide();
+                    $("#top2").fadeIn();
+                });
+            });
+            $(function () {
+                $("#middle_section1").fadeIn();
+                $("#middle_section2").hide();
+                $('#menu li:nth-of-type(3)').click(function () {
+                    $("#middle_section1").fadeIn();
+                    $("#middle_section2").hide();
+                });
+                $('#menu li:nth-of-type(4)').click(function () {
+                    $("#middle_section1").hide();
+                    $("#middle_section2").fadeIn();
+                });
+            });
+
+    </script>
+    <script src="https://kit.fontawesome.com/7eaaacde9b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="main">
+            <img class="logo" src="img/logo.png" alt="logo">
+
+            <nav class="nav1">
+                <ul>
+                    <li>한국어</li>
+                    <li>ENGLISH</li>
+                    <li>日本語</li>
+                    <li>中國語</li>
+                </ul>
+            </nav>
+            <nav class="nav2">
+                <ul>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">전주한옥마을소개</a></li>
+                    <li><a href="#">문화공연행사</a></li>
+                    <li><a href="#">한옥마을사진</a></li>
+                    <li><a href="#">한옥마을영상</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="navicon">
+                <i class="fas fa-bars"></i>
+            </a>
+
+        </div>
+        <div class="bannner">
+            <img class="backimg" src="img/main.png" alt="img">
+            <span class="text">아름다운 우리 전통의 美<br>
+                여기는 <img class="logo2 " src="img/logo2.png" alt="logo"> 입니다.</span>
+        </div>
+    </header>
+    <section id="maininput">
+        <p>다시 찾고싶은 대한민국 대표 여행지, 전주한옥마을에 오신걸 환영합니다.</p>
+
+        <ul id="menu">
+            <li>
+                <a href="#top1">
+                    <img src="img/main_icon1.png" alt="icon">
+                    <span>문화시설</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#top2">
+                    <img src="img/main_icon2.png" alt="icon">
+                    <span>문화유적지</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#middle_section1">
+                    <img src="img/main_icon3.png" alt="icon">
+                    <span>이색체험</span>
+                </a>
+
+            </li>
+
+            <li>
+                <a href="#middle_section2">
+                    <img src="img/main_icon4.png" alt="icon">
+                    <span>스템프투어</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#bottom">
+                    <img src="img/main_icon5.png" alt="icon">
+                    <span>한옥마을풍경</span>
+                </a>
+            </li>
+    </section>
+
+    <section id="top">
+        <div id="top1">
+            <h2>문화시설</h2>
+            <div class="top_big">
+                <div class="top_bigtext">
+                    <p>전주 전통 문화 연수원</p>
+                    <p>전주시 완산구 향교길 119-6<br>
+                        ☎ 063-281-5271~4<br>
+                        홈페이지 https://www.dongheon.or.kr</p>
+                    <button>전시장체험안내</button>
+                </div>
+                <div class="top_bigimgbox">
+                    <img class="top_bigimg" src="img/top1-1.jpg" alt="img"></img>
+                </div>
+            </div>
+    
+            <div class="top_mini">
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top1-2.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>전주 한옥 마을 역사관</p>
+                        <p>전주시 완산구 최명희길 17-10<br>
+                            ☎ 063-286-5125</p>
+                        <button>전시장체험안내</button>
+                    </div>
+                </div>
+
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top1-3.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>강암 서예관</p>
+                        <p>전주시 완산구 전주천동로 74<br>
+                            ☎ 063-285-7442</p>
+                        <button>전시장체험안내</button>
+                    </div>
+                </div>
+    
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top1-4.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>한옥 마을 선비문화관</p>
+                        <p>전주시 완산구 한지길 102<br>
+                            ☎ 063-288-5124</p>
+                        <button>전시장체험안내</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="top2">
+            <h2>문화유적지</h2>
+            <div class="top_big">
+                <div class="top_bigtext">
+                    <p>전주 경기전 정전</p>
+                    <p>[보물 제 1578호-2008.12.01.]</p>
+                    <button>자세히보기</button>
+                </div>
+                <div class="top_bigimgbox">
+                    <img class="top_bigimg" src="img/top2-1.jpg" alt="img"></img>
+                </div>
+            </div>
+    
+            <div class="top_mini">
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top2-2.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>조선 태조어진</p>
+                        <p>[국보 제 317호-2012.06.29.]</p>
+                        <button>자세히보기</button>
+                    </div>
+                </div>
+
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top2-3.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>하마비</p>
+                        <p>[전라북도 유형문화재 제 222호-2013.11.15.]</p>
+                        <button>자세히보기</button>
+                    </div>
+                </div>
+    
+                <div class="top_minibox">
+                    <div class="top_miniimgbox">
+                        <img class="top_miniimg" src="img/top2-4.jpg" alt="img"></img>
+                    </div>
+                    <div class="top_minitext">
+                        <p>전주 전동성당</p>
+                        <p>[사적 제288호-1981.09.25.]</p>
+                        <button>자세히보기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middle_section1">
+        <h2>이색체험</h2>
+        <div id="middle1">
+            <div class="mdl1_big">
+                <div class="mdl1_text">
+                    <p>전주난장</p>
+                    <p>3년 6개월의 공사기간을 거쳐<br>
+                    만들어진 곳! 한옥마을 여행객이라면 꼭 한번 가봐야 한다는 그곳!<br>
+                    [운영시간 10시반~20시/입장료 5천~8천원]</p>
+                </div>
+                <div class="mdl1_videobox">
+                    <iframe src='https://tv.naver.com/embed/9158561?autoPlay=false' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='610' HEIGHT='330' allow='autoplay' allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="mdl1_mini">
+                <div class="mdl1_minitext">
+                    <p>자만벽화마을</p>
+                    <p>6.25 한국전쟁때 피난민이 모여살면서 만들어진 달동네에<br>
+                    예쁜벽화들이 그려지면서 핫 플레이스가 되다!<br>
+                    전주한옥마을 여행객들이라면 누구나 가봤을 자만벽화마을!</p>
+                </div>
+                <div class="mdl1_minitext">
+                    <p>남부시장 야시장</p>
+                    <p>여러나라의 가지각색 음식은 물론,<br>
+                    삼겹살 김밥, 막창, 육전, 소고기 스시, 꼬치, 아이술크림, 탕후루 등<br>
+                    금요일과 토요일밤에 펼쳐지는 맛의 향연!!</p>
+                </div>
+                <div class="mdl1_minitext">
+                    <p>추억박물관&루이엘모자박물관</p>
+                    <p>추억박물관 1층은 레트로 감성~그때 그 시절 과거로의 여행을 떠나보세요~<br>
+                    학창시절 소품들과 어린시절 장난감들을 보며<br>
+                    절로 미소가 지어지는 곳이랍니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="middle_section2">
+        <div id="middle2">
+            <h2>스탬프투어</h2>
+            <iframe width="1150" height="675" src="https://www.youtube.com/embed/ff-rMj10-TQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>전주한옥마을에서 福 받아가기!<br>
+            긍정적인 기운과 복이 가득한 골목길을 함께 걸어 보세요.</p>
+            <div class="mld2imgbox">
+                <img src="img/middle2-1.png" alt="img">
+                <img src="img/middle2-2.jpg" alt="img">
+                <img src="img/middle2-3.jpg" alt="img">
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom">
+        <div id="bottombox">
+    
+            <div class="btmtitle">
+                <img class="btmlogo" src="img/logo.png" alt="logo">
+                <p>한옥은 사계절 어느 때 찾아가도<br>그 계절만의 아름다움과 멋스러움이 담겨 있습니다.</p>
+            </div>
+    
+            <div class="btm1">
+                <div class="btm1_left">
+                    <div class="btm1_box1">
+                        <img src="img/bottom1.jpg" alt="img">
+                        <div class="btmtext">
+                            <span><span>향기로운 꽃내음 가득한</span><br>한옥의 봄</span>
+                        </div>
+                    </div>
+    
+                    <div class="btm1_box2">
+                        <img src="img/bottom2.jpg" alt="img">
+                        <div class="btmtext">
+                            <span><span>싱그러운 초록 향연이 펼쳐지는</span><br>한옥의 여름</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="btm1_right">
+                    <div class="btm1_box3">
+                        <img src="img/bottom3.jpg" alt="img">
+                        <div class="btmtext">
+                            <span><span>알록달록 비단이 깔린듯한</span><br>한옥의 가을</span>
+                        </div>
+                    </div>
+    
+                    <div class="btm1_box4">
+                        <img src="img/bottom4.jpg" alt="img">
+                        <div class="btmtext">
+                            <span><span>은빛 눈꽃이 눈부신</span><br>한옥의 겨울</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btmtitle">
+                <p>한옥은 낮과 밤, 햇빛의 모양에 따라서도 다양한 모습을 보입니다.</p>
+            </div>
+
+            <div class="btm2">
+                <div class="btm2_box1">
+                    <img src="img/bottom5.jpg" alt="img">
+                    <div class="btmtext">
+                        <span><span>맑은 하늘 아래 고풍스러운 한 폭의 수채화 같은</span><br>한옥의 낮</span>
+                    </div>
+                </div>
+                <div class="btm2_box2">
+                    <img src="img/bottom6.jpg" alt="img">
+                    <div class="btmtext">
+                        <span><span>밤하늘과 은은한 조명이 어우러져 더욱 아름다운</span><br>한옥의 밤</span>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <footer>
+        <div id=footerbox>
+            <div class="footer_left">
+                <div class="footerlink">
+                    <a href="#">찾아오시는길</a>
+                    <a href="#">주차안내</a>
+                    <a href="#">관광안내지도</a>
+                    <a href="#">자전거대여</a>
+                </div>
+                <p>전주시 완산구 기린대로 99(한옥마을 관광안내소)<br>
+                방문가능시간 : 연중무휴 24시간 개방<br>
+                대표전화 : 063-282-1330 / 카카오톡 "전주한옥마을" 채널 채팅을 통해 문의가능<br>
+                Copyright (c) 2019 전주한옥마을 All Rights Reserved.</p>
+            </div>
+
+            <div class="footer_right">
+                <img src="img/snsicon1.png" alt="icon">
+                <img src="img/snsicon2.png" alt="icon">
+                <img src="img/snsicon3.png" alt="icon">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
