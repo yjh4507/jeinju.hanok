@@ -1,0 +1,176 @@
+@cherset "UTF-8";
+
+@media (min-width:769px) and (max-width:1199px) {
+
+  /* ------------ main ------------ */
+  .logo {
+    width:190px;
+    height:26px;
+    margin:30px 0 0 20px;
+  }
+  header .main {
+    width:100%;
+  }
+  .main .nav1 {
+    width:auto;
+    font-size:13px;
+  }
+  .main .nav2 {
+    position: absolute;
+    top:25px;
+    right:0;
+    width:auto;
+    font-size:17px;
+  }
+
+  /* -----선택메뉴----- */
+
+  #maininput {
+    width:100%;
+  }
+  #maininput p {
+    font-size:25px;
+  }
+
+  /* -----문화시설 문화유적지----- */
+
+  #top1, #top2 {
+    width:100%;
+  }
+  .top_big{
+    width:100%;
+  }
+  .top_bigimgbox{
+    width:55%;
+    height:auto;
+  }
+  .top_bigimg {
+    width:100%;
+    height:auto;
+  }
+  .top_bigtext{
+    width:45%;
+    height:auto;
+  }
+  .top_bigtext p:nth-of-type(1){
+    font-size:30px;
+  }
+  .top_bigtext p:nth-of-type(2){
+    font-size:18px;
+  }
+  .top_bigtext button {
+    font-size:15px;
+  }
+  .top_mini {
+    width:100%;
+  }
+  .top_minibox {
+    width:30%;
+  }
+  .top_miniimgbox, .top_miniimg {
+    width:100%;
+    height:auto;
+  }
+  .top_minitext p:nth-of-type(1) {
+    font-size:25px;
+  }
+  .top_minitext p:nth-of-type(2) {
+    font-size:15px;
+  }
+  .top_minitext button {
+    font-size:13px;
+  }
+  
+  /* -----이색체험----- */
+
+  #middle_section1 {
+    height:1250px;
+  }
+  #middle1 {
+    width:100%;
+    height:1050px;
+    flex-direction:column;
+    align-items:center;
+  }
+  .mdl1_big {
+    width:90%;
+  }
+  .mdl1_videobox{
+    width:70%;
+    margin-bottom:2%;
+  }
+  .mdl1_videobox iframe{
+    width:100%;
+  }
+  .mdl1_mini {
+    width:90%;
+    height:490px;
+  }
+  .mdl1_minitext {
+    width:100%;
+  }
+
+  /* -----스탬프투어----- */
+
+  #middle_section2 {
+    height:1000px;
+  }
+  #middle2 {
+    width:100%;
+    height:100%;
+    margin:0 auto;
+  }
+  #middle2 iframe {
+    width:90%;
+    height:500px;
+  }
+  .mld2imgbox{
+    width:90%;
+    background: #180000;
+  }
+  .mld2imgbox img {
+    width:30%;
+    cursor: pointer;
+    box-shadow:5px 5px 5px  black;
+  }
+
+  /* -----한옥마을풍경----- */
+  /* #bottom {
+    height:3200px;
+  } */
+  #bottom p {
+    font-size:25px;
+  }
+  #bottombox {
+    width:90%;
+    height:100%;
+  }
+  .btmtitle {
+    width:100%;
+  }
+  .btm1 {
+    width:100%;
+  }
+  .btm1_left, .btm1_right {
+    width:49.5%;
+    height:auto;
+  }
+  .btm1_box1 {height:49.5%;}
+  .btm1_box2 {height:49.5%;}
+  .btm1_box3 {height:44%;}
+  .btm1_box4 {height:55%;}
+
+  .btm2 {
+    width:100%;
+  }
+  .btm2_box1, .btm2_box2 {
+    width:100%;
+    height:auto;
+    margin:0 0.5%;
+  }
+  #footerbox {
+    width:90%;
+  }
+
+
+}
