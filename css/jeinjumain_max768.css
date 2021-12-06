@@ -1,10 +1,12 @@
-@cherset "UTF-8";
+@charset "UTF-8";
 
 @media (max-width:768px) {
 
 /* ------------ main ------------ */
 
     .logo {
+        width:190px;
+        height:26px;
         margin:30px 0 0 20px;
     }
     header .main {
@@ -12,7 +14,7 @@
         height:80px;
     }
     .main .nav1 {
-        margin:10px 0 0 20px;
+        display:none;
     }
     .main .nav2 {
         width:100%;
@@ -42,9 +44,9 @@
         display:block;
         position:absolute;
         font-size:25px;
-        color: #180000;
+        color:#570303;
         right:18px;
-        top:35px;
+        top:28px;
     }
     .nav2.active{display:block;}
 
@@ -71,52 +73,73 @@
 
 /* -----문화시설 문화유적지----- */
     #top {
-        height:800px;
+        height:auto;
     }
+
     #top1, #top2{
         width:90%;
         height:100%;
     }
+    #top1 h2, #top2 h2 {
+        margin:7% auto;
+    }
     .top_big{
+        flex-direction: column-reverse;
         width:100%;
     }
     .top_bigimgbox {
-        width:53%;
-        height:270px;
+        width: 100%;
+        height:100%;
     }
     .top_bigimg{
         width:100%;
         height:100%;
     }
     .top_bigtext{
-        width:40%;
+        width:100%;
+        height:auto;
         margin-left:3%;
     }
     .top_bigtext p:nth-of-type(1){
         font-size:30px;
-        margin-top:20px;
+        margin:10px 0 10px;
     }
     .top_bigtext p:nth-of-type(2){
         font-size:18px;
         line-height:25px;
+        margin-bottom:10px;
+    }
+    .top_bigtext button {
+        font-size:15px;
+        margin-bottom:10px;
     }
     .top_mini {
+        flex-direction: column;
+        justify-content:space-between;
         width:100%;
-        height:280px;
+        height:auto;
     }
     .top_minibox {
-        width:32%;
-        height:280px;
-    }
-    .top_miniimgbox, .top_miniimg {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
         width:100%;
-        height:130px;
+        height:100%;
+    }
+    .top_miniimgbox{
+        width:100%;
+        height:100%;
+    }
+    .top_miniimg {
+        width:100%;
+        height:100%;
     }
     .top_minitext p:nth-of-type(1) {
-        font-size:23px;
+        font-size:30px;
     }
     .top_minitext p:nth-of-type(2) {
-        font-size:15px;
+        font-size:18px;
+        line-height:25px;
     }
 /* -----이색체험----- */
 
@@ -133,12 +156,16 @@
     .mdl1_big {
         width:90%;
     }
+    .mdl1_videobox, .mdl1_videobox iframe {
+        width:100%;
+    }
     .mdl1_mini {
         width:90%;
         height:490px;
     }
     .mdl1_minitext {
         width:100%;
+        height:auto;
     }
 
     /* -----스탬프투어----- */
@@ -166,36 +193,41 @@
 
     /* -----한옥마을풍경----- */
     #bottom {
-        height:1500px;
+        height:3200px;
     }
     #bottom p {
         font-size:25px;
     }
     #bottombox {
         width:90%;
-        height:1500px;
+        height:100%;
     }
     .btmtitle {
         width:100%;
     }
     .btm1 {
-        height:490px;
+        flex-direction: column;
+        align-items:center;
+        height:auto;
     }
     .btm1_left, .btm1_right {
-        width:49.5%;
-        height:490px;
+        width:100%;
+        height:auto;
     }
-    .btm1_box1 {height:242px;}
-    .btm1_box2 {height:242px;}
-    .btm1_box3 {height:190px;}
-    .btm1_box4 {height:294px;}
+    .btm1_box1 {height:auto;}
+    .btm1_box2 {height:auto; margin-top:2%;}
+    .btm1_box3 {height:auto; margin-top:2%;}
+    .btm1_box4 {height:auto; margin-top:2%;}
 
     .btm2 {
-        height:242px;
+        flex-direction:column;
+        align-items: center;
+        height:auto;
     }
     .btm2_box1, .btm2_box2 {
-        width:49.5%;
-        height:242px;
+        width:100%;
+        height:auto;
+        margin:1% 0;
     }
     .btmtext {
         font-size:30px;
@@ -212,15 +244,15 @@
         align-items:center;
         text-align:center;
     }
+    .footer_left{
+        width:100%;
+    }
     .footer_left p {
+        width:100%;
         margin-top:2%;
+        font-size:13px;
     }
     .footer_right img{
         margin-top:0;
     }
-
-
-
-
-
 }
