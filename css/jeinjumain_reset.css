@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+    * {margin:0; padding:0; box-sizing:border-box; font-family:'Dolbomche_R';}
+    ul,li,ol {list-style:none; margin:0; padding:0;}
+    a {text-decoration:none; color:black;}
+    button {cursor: pointer;}
+
+    @font-face {
+        font-family: 'Dolbomche_R';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/Dolbomche_R.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Dolbomche_B';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/Dolbomche_B.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Pretendard-Thin';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    @keyframes slider {
+        0% {top:80px; opacity:0.2;}
+        100% {top:0; opacity:1;}
+    }

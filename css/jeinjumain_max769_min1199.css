@@ -1,27 +1,6 @@
-@cherset "UTF-8";
+@charset "UTF-8";
 
 @media (min-width:769px) and (max-width:1199px) {
-
-  /* ------------ main ------------ */
-  .logo {
-    width:190px;
-    height:26px;
-    margin:30px 0 0 20px;
-  }
-  header .main {
-    width:100%;
-  }
-  .main .nav1 {
-    width:auto;
-    font-size:13px;
-  }
-  .main .nav2 {
-    position: absolute;
-    top:25px;
-    right:0;
-    width:auto;
-    font-size:17px;
-  }
 
   /* -----선택메뉴----- */
 
@@ -168,9 +147,4 @@
     height:auto;
     margin:0 0.5%;
   }
-  #footerbox {
-    width:90%;
-  }
-
-
 }
