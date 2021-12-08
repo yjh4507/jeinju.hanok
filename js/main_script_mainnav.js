@@ -4,3 +4,5 @@ const menu = document.querySelector('.nav2');
 toggleBtn.addEventListener('click', ()=> {
     menu.classList.toggle('active');
 });
+
+
