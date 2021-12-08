@@ -7,40 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jeonju.hanok</title>
 
+    
+    <link rel="stylesheet" href="css/jeinju_reset.css">
+    <link rel="stylesheet" href="css/jeinju_common.css">
     <link rel="stylesheet" href="css/jeinjumain.css">
     <link rel="stylesheet" href="css/jeinjumain_max768.css">
     <link rel="stylesheet" href="css/jeinjumain_max769_min1199.css">
 
-    <script src="js/main_script.js" defer></script>
+    <script src="js/main_script_mainnav.js" defer></script>
+    <script src="js/main_script_maininput.js" defer></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-            $(function () {
-                $("#top1").fadeIn();
-                $("#top2").hide();
-                $('#menu li:nth-of-type(1)').click(function () {
-                    $("#top1").fadeIn();
-                    $("#top2").hide();
-                });
-                $('#menu li:nth-of-type(2)').click(function () {
-                    $("#top1").hide();
-                    $("#top2").fadeIn();
-                });
-            });
-            $(function () {
-                $("#middle_section1").fadeIn();
-                $("#middle_section2").hide();
-                $('#menu li:nth-of-type(3)').click(function () {
-                    $("#middle_section1").fadeIn();
-                    $("#middle_section2").hide();
-                });
-                $('#menu li:nth-of-type(4)').click(function () {
-                    $("#middle_section1").hide();
-                    $("#middle_section2").fadeIn();
-                });
-            });
-
-    </script>
     <script src="https://kit.fontawesome.com/7eaaacde9b.js" crossorigin="anonymous"></script>
 </head>
 
@@ -48,7 +25,7 @@
     <header>
 
         <div class="main">
-            <img class="logo" src="img/logo.png" alt="logo">
+            <a href="https://yjh4507.github.io/jeinju.hanok/"><img class="logo" src="img/logo.png" alt="logo"></a>
 
             <nav class="nav1">
                 <ul>
@@ -60,11 +37,11 @@
             </nav>
             <nav class="nav2">
                 <ul>
-                    <li><a href="#">이용안내</a></li>
-                    <li><a href="#">전주한옥마을소개</a></li>
-                    <li><a href="#">문화공연행사</a></li>
-                    <li><a href="#">한옥마을사진</a></li>
-                    <li><a href="#">한옥마을영상</a></li>
+                    <li><a href="sub.html">이용안내</a></li>
+                    <li><a href="sub.html">전주한옥마을소개</a></li>
+                    <li><a href="sub.html">문화공연행사</a></li>
+                    <li><a href="sub.html">한옥마을사진</a></li>
+                    <li><a href="sub.html">한옥마을영상</a></li>
                 </ul>
             </nav>
             <a href="#" class="navicon">
