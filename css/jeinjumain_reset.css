@@ -29,7 +29,12 @@
         font-weight: 100;
         font-style: normal;
     }
-
+    @font-face {
+        font-family: 'WandohopeR';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
     @keyframes slider {
         0% {top:80px; opacity:0.2;}
         100% {top:0; opacity:1;}

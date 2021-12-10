@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media (max-width:768px) {
+
+/* ------------ section ------------ */
+
+/* -----한옥마을소개----- */
+
+  .sec1_title {
+    width:250px;
+  }
+  .sec1_title p {
+    font-size:30px;
+  }
+  .sec1_top {
+    flex-direction:column-reverse;
+    align-items: center;
+  }
+  .sec1_top img {
+    width:300px;
+    height:220px;
+  }
+  .sec1_top p {
+    font-size:18px;
+    line-height:25px;
+    text-align: center;
+  }
+
+ /* -----걸어온길----- */
+  .sec1_middle {
+    width:100%;
+    align-items: center;
+  }
+  .sec1_middle h1 {
+    width:300px;
+    padding:0;
+    font-size:30px;
+    border-radius: 20px 20px 0 0 ;
+    text-align: center;
+  }
+  .sec1_midbox {
+    flex-direction: column;
+    height:auto;
+  }
+  .sec1_midbox img {
+    width:180px;
+    height:30px;
+    margin-bottom:20px;
+  }
+  .sec1_midbox p {
+    width:80%;
+    background-color: aqua;
+    border-left:0;
+    border-top:2px solid black;
+    padding:0;
+  }
+
+
+
+}
