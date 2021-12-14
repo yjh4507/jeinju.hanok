@@ -240,9 +240,10 @@
         background-color:white;
     }
     .sec2_bottom button {
+        width:80%;
         position: relative;
         top: 80%;
-        left:40%;
+        left:10%;
         font-family: 'Pretendard-Regular';
         padding:20px;
         border:none;
